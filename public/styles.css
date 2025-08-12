@@ -1,0 +1,12 @@
+body{font-family:system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:linear-gradient(180deg,#e6f2ff,#ffffff);min-height:100vh}
+.container{max-width:760px;margin:28px auto;padding:18px}
+.search{display:flex;gap:8px}
+input{flex:1;padding:10px;font-size:16px;border-radius:6px;border:1px solid #ccc}
+button{padding:10px 14px;border-radius:6px;border:none;background:#0077ff;color:#fff;cursor:pointer}
+.card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,0.06);margin-top:16px}
+.hidden{display:none}
+.row{display:flex;gap:12px;align-items:center}
+.big{font-size:28px;font-weight:700}
+.forecast-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-top:10px}
+.fday{background:#fff;padding:10px;border-radius:8px;text-align:center}
+.error{color:#b00020;margin-top:10px}

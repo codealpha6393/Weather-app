@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App (Replit Template)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search">
+      <input id="city" placeholder="Enter city (e.g., Delhi)" />
+      <button id="btn">Get Weather</button>
+    </div>
+
+    <div id="error" class="error"></div>
+
+    <section id="current" class="card hidden">
+      <h2 id="c-city"></h2>
+      <div class="row">
+        <div>
+          <img id="c-icon" alt="icon" />
+        </div>
+        <div>
+          <div id="c-temp" class="big"></div>
+          <div id="c-desc"></div>
+          <div id="c-details"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="forecast" class="hidden">
+      <h3>5-day forecast</h3>
+      <div id="cards" class="forecast-grid"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
